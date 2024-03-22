@@ -1,0 +1,54 @@
+* {
+  margin: auto;
+  background-image: url(book.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header {
+  text-align: center;
+  color: red;
+}
+.main-header p {
+  color: darkblue;
+}
+.main-header p2 {
+  color: purple;
+}
+
+.book {
+  border: 1px solid #ccc;
+  width: 575px;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.book .book-info {
+  display: flex;
+  align-items: center;
+}
+.book .book-info img {
+  width: auto;
+  height: 150px;
+  margin-right: 20px;
+}
+.book .book-info .title-info {
+  flex: 1;
+}
+.book .book-info .title-info h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.book .book-info .title-info h2 a {
+  color: blue;
+  text-decoration: none;
+}
+.book .book-info .title-info h2 a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 20px;
+}/*# sourceMappingURL=steven.css.map */
